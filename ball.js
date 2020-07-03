@@ -9,7 +9,7 @@ function ball(x, y) {
     this.x = x;
     this.y = y;
     this.radius = 10;
-    this.color = "red";
+    this.color = '#' + parseInt(Math.random() * 0xffffff).toString(16);
     this.velX = 0;
     this.velY = 1;
 }
